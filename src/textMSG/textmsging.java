@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class textmsging {
 
 	public static void main(String[] args) {
-	      Scanner scnr = new Scanner(System.in);
+		 Scanner scnr = new Scanner(System.in);
 	      System.out.println("Input an abbreviation:");
 	            String input = scnr.next();
 	            if (input.equals("LOL")) {
@@ -30,9 +30,9 @@ public class textmsging {
 	               }
 
 	            else  {
-	            System.out.println("Unknown");
-e
-	            }
+	            System.out.println("Unknown"); 
+
+	            }	            
 	         }
 
 }
